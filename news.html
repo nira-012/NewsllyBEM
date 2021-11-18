@@ -6,89 +6,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Newslly – discovery</title>
 
 </head>
 
 <body>
-    <header class="l-header">
-        <div class="l-inner l-flex l-justify-between l-align-center">
-            <h1><img src="images/img_logo.png" alt="Newslly"></h1>
-            <nav class="l-col5">
-                <ul class="l-flex l-justify-between l-align-center l-fw-bold">
-                    <li>HMOME</li>
-                    <li class="l-c-black">DISCOVERY</li>
-                    <li>PHOTOS</li>
-                    <li>ONTACT</li>
+    <header class="header">
+        <div class="header__inner">
+            <h1 class="header__logo"><img src="./images/img_logo.png" alt="Newslly"></h1>
+            <nav class="g-nav">
+                <ul class="g-nav__list">
+                    <a href="#" class="g-nav__link">
+                        <li class="g-nav__item">HOME</li>
+                    </a>
+                    <a href="#" class="g-nav__link">
+                        <li class="g-nav__item">DISCOVERY</li>
+                    </a>
+                    <a href="#" class="g-nav__link">
+                        <li class="g-nav__item">PHOTOS</li>
+                    </a>
+                    <a href="#" class="g-nav__link">
+                        <li class="g-nav__item">CONTACT</li>
+                    </a>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main class="l-main">
-        <section class="l-mt6">
-            <div class="l-inner">
-                <article class="l-mb6">
-                    <p class="outline-notes">TRAVEL</p>
-                    <h3 class="outline-title l-c-black">Subtitle</h3>
-                    <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.</p>
-                    <a href="#" class="btn btn">READ MORE</a>
-                </article>
+    <main class="main">
+        <main class="main">
+            <section class="more-news">
+                <div class="more-news__inner">
+                    <div class="more-news__item-news outline">
+                        <p class="outline__title">TRAVEL</p>
+                        <h3 class="outline__sub-title">Subtitle</h3>
+                        <p class="outline-text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
+                            detracto, vidit vituperatoribus duo id. Affert detraxit
+                            voluptatum vis eu, inermis eloquentiam.</p>
+                        <a href="#" class="btn">READ MORE</a>
+                    </div>
 
-                <article class="l-mb6">
-                    <p class="outline-notes">TECHNOLOGY</p>
-                    <h3 class="outline-title l-c-black">Subtitle</h3>
-                    <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.</p>
-                    <a href="#" class="btn btn">READ MORE</a>
-                </article>
-            </div>
-        </section>
+                    <div class="more-news__item-news outline">
+                        <p class="outline__title">TRAVEL</p>
+                        <h3 class="outline__sub-title">Subtitle</h3>
+                        <p class="outline-text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
+                            detracto, vidit vituperatoribus duo id. Affert detraxit
+                            voluptatum vis eu, inermis eloquentiam.</p>
+                        <a href="#" class="btn">READ MORE</a>
+                    </div>
 
-        <section class="l-bg-gray l-pb-6">
-            <div class="l-inner">
-                <h2 class="l-c-black">DISCOERY</h2>
-                <div class="articleall  l-flex l-justify-between l-align-cente">
 
-                    <article class="l-col-3 l-bg-white">
-                        <img src="images/pic_trending01.png" alt="">
-                        <div class="outline-para">
-                            <h3 class="l-c-black">Dolore magna aliqua</h3>
-                            <p class="date">2m ago</p>
-                        </div>
-                    </article>
-
-                    <article class="l-col-3 l-bg-white">
-                        <img src="images/pic_trending02.png" alt="">
-                        <div class="outline-para">
-                            <h3 class="l-c-black">Morbi eleifend a libero</h3>
-                            <p class="date">1h ago</p>
-                        </div>
-                    </article>
-
-                    <article class="l-col-3 l-bg-white">
-                        <img src="images/pic_trending02.png" alt="">
-                        <div class="outline-para">
-                            <h3 class="l-c-black">Morbi eleifend a libero</h3>
-                            <p class="date">2m ago</p>
-                        </div>
-                    </article>
                 </div>
+            </section>
 
+            <section class="trending">
+                <div class="trending__inner">
+                    <h2 class="trending__title">DISCOVERY</h2>
+
+                    <div class="trending__list">
+                        <article class="card trending__item-news">
+                            <img src="./images/pic_trending01.png" alt="" class="card__img">
+                            <div class="card__body">
+                                <h3 class="card__title">Dolore magna aliqua</h3>
+                                <p class="card__time time">2m ago</p>
+                            </div>
+                        </article>
+
+                        <article class="card trending__item-news">
+                            <img src="./images/pic_trending02.png" alt="" class="card__img">
+                            <div class="card__body">
+                                <h3 class="card__title">Morbi eleifend a libero</h3>
+                                <p class="card__time time">1h ago</p>
+                            </div>
+                        </article>
+
+                        <article class="card trending__item-news">
+                            <img src="./images/pic_trending01.png" alt="" class="card__img">
+                            <div class="card__body">
+                                <h3 class="card__title">Dolore magna aliqua</h3>
+                                <p class="card__time time">2m ago</p>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer__inner">
+                <small class="footer__copy">TRIDENT college All Rights Reserved.</small>
             </div>
-        </section>
 
-    </main>
+        </footer>
 
-    <footer class="l-footer">
-        <div class="l-inner">
-            <small>TRIDENT college All Rights Reserved.</small>
-        </div>
-    </footer>
+
 
 </body>
 
